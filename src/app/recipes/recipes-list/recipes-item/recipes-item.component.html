@@ -1,0 +1,15 @@
+<a href="#" class="list-group" (click)="onSelected()">
+  <div class="card bg-light list-group-item">
+    <img
+      class="card-img-top"
+      [src]="recipe.imagePath"
+      alt="{{ recipe.name }}"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ recipe.name }}</h5>
+      <p class="card-text">
+        {{ recipe.description }}
+      </p>
+    </div>
+  </div>
+</a>
